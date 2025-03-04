@@ -78,3 +78,19 @@ nav ul li a:hover {
   object-fit: cover;
   border-radius: 6px;
 }
+
+.navigation-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.navigation-buttons button {
+  padding: 8px 16px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

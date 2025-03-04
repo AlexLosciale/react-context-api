@@ -42,7 +42,7 @@ const SinglePost = () => {
       </div>
       <div className="navigation-buttons">
         <button onClick={goToPreviousPost} disabled={Number(id) <= 1}>← Post Precedente</button>
-        <button onClick={goToNextPost}>Post Successivo →</button>
+        <button onClick={goToNextPost} disabled={Number(id) >= 5}>Post Successivo →</button>
       </div>
     </div>
   );
